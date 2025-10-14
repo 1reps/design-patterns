@@ -18,11 +18,19 @@
 ## 코드 루트
 - 소스 루트: `src`
   - 파사드 예제: `src/structural/facade/...`
+    - 적용 전(before): `src/structural/facade/before/...`
+    - 적용 후(after): `src/structural/facade/...` (Facade 사용)
   - 전략 예제: `src/behavioral/strategy/...`
+    - 적용 전(before): `src/behavioral/strategy/before/...`
+    - 적용 후(after): `src/behavioral/strategy/...` (Strategy 사용)
   - 템플릿 메소드 예제: `src/behavioral/templateMethod/...`
+    - 적용 전(before): `src/behavioral/templateMethod/before/...`
+    - 적용 후(after): `src/behavioral/templateMethod/...` (Template Method 사용)
   - 상태 예제: `src/behavioral/state/...`
     - 적용 전(before): `src/behavioral/state/before/...`
     - 적용 후(after): `src/behavioral/state/after/...`
   - 싱글턴 예제: `src/creational/singleton/...`
+    - 적용 전(before): `src/creational/singleton/before/...`
+    - 적용 후(after): `src/creational/singleton/...` (Singleton 사용)
 
 필요한 패턴을 더 추가하거나 정리 포맷을 바꾸고 싶으시면 알려주세요.

@@ -1,4 +1,4 @@
-package behavioral.state.door;
+package behavioral.state.after.door;
 
 public interface State {
 

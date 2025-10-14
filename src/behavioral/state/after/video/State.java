@@ -1,4 +1,4 @@
-package behavioral.state.video;
+package behavioral.state.after.video;
 
 public interface State {
 

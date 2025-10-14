@@ -1,23 +1,34 @@
-package behavioral.state.after.video;
+package behavioral.state.before.video;
 
 public class VideoPlayer {
 
-    private State state;
+    private String state;
 
-    public VideoPlayer() {
-        this.state = new StoppedState();
-    }
-
-    public void setState(State state) {
+    public VideoPlayer(String state) {
         this.state = state;
     }
 
     public void play() {
-        this.state = new PlayingState();
+        if (state.equals("Stopped")) {
+            System.out.println("Starting the video.");
+            state = "Playing";
+        } else if (state.equals("Playing")) {
+            System.out.println("Video is already playing.");
+        } else if (state.equals("Paused")) {
+            System.out.println("Resuming the video.");
+            state = "Playing";
+        }
     }
 
     public void stop() {
-        this.state = new StoppedState();
+        if (state.equals("Playing")) {
+            System.out.println("Pausing the video.");
+            state = "Paused";
+        } else if (state.equals("Paused")) {
+            System.out.println("Stopping the video.");
+            state = "Stopped";
+        } else if (state.equals("Stopped")) {
+            System.out.println("Video is already stopped.");
+        }
     }
-
 }
