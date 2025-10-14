@@ -45,10 +45,10 @@ sequenceDiagram
 - `FileReader` / `FileWriter` / `FileDeleter`: 각각 읽기/쓰기/삭제 책임 분리
 
 관련 경로
-- `src/structural/facade/filesystem/FileSystemFacade.java`
-- `src/structural/facade/filesystem/FileReader.java`
-- `src/structural/facade/filesystem/FileWriter.java`
-- `src/structural/facade/filesystem/FileDeleter.java`
+- `src/structural/facade/resolve/filesystem/FileSystemFacade.java`
+- `src/structural/facade/resolve/filesystem/FileReader.java`
+- `src/structural/facade/resolve/filesystem/FileWriter.java`
+- `src/structural/facade/resolve/filesystem/FileDeleter.java`
 
 ## SmartHomeFacade 흐름
 
@@ -70,10 +70,10 @@ sequenceDiagram
 - `Thermostat` / `Lights` / `CoffeeMaker`: 각 하드웨어 제어 책임
 
 관련 경로
-- `src/structural/facade/smarthome/SmartHomeFacade.java`
-- `src/structural/facade/smarthome/Thermostat.java`
-- `src/structural/facade/smarthome/Lights.java`
-- `src/structural/facade/smarthome/CoffeeMaker.java`
+- `src/structural/facade/resolve/smarthome/SmartHomeFacade.java`
+- `src/structural/facade/resolve/smarthome/Thermostat.java`
+- `src/structural/facade/resolve/smarthome/Lights.java`
+- `src/structural/facade/resolve/smarthome/CoffeeMaker.java`
 
 ## 적용 팁
 - 파사드 내부에서 예외/로그/트랜잭션 등 횡단 관심사를 모아 처리하면 클라이언트 간소화에 효과적

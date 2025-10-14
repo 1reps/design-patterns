@@ -2,7 +2,7 @@
 
 이 레포는 패턴별로 예제 코드와 문서를 정리합니다. 문서는 `docs/` 아래에 있으며, 아래 인덱스에서 바로 이동할 수 있습니다.
 
-예제 코드는 가능하면 보일러플레이트(적용 전)와 패턴 적용(적용 후)을 함께 제공합니다. `before/`와 `after/` 구조를 따라 비교가 쉽도록 구성합니다.
+예제 코드는 가능하면 문제 상황(적용 전)과 해결(적용 후)을 함께 제공합니다. `problem/`와 `resolve/` 구조를 따라 비교가 쉽도록 구성합니다.
 
 ## 문서 인덱스
 
@@ -18,19 +18,19 @@
 ## 코드 루트
 - 소스 루트: `src`
   - 파사드 예제: `src/structural/facade/...`
-    - 적용 전(before): `src/structural/facade/before/...`
-    - 적용 후(after): `src/structural/facade/...` (Facade 사용)
+    - 문제(problem): `src/structural/facade/problem/...`
+    - 해결(resolve): `src/structural/facade/resolve/...`
   - 전략 예제: `src/behavioral/strategy/...`
-    - 적용 전(before): `src/behavioral/strategy/before/...`
-    - 적용 후(after): `src/behavioral/strategy/...` (Strategy 사용)
+    - 문제(problem): `src/behavioral/strategy/problem/...`
+    - 해결(resolve): `src/behavioral/strategy/resolve/...`
   - 템플릿 메소드 예제: `src/behavioral/templateMethod/...`
-    - 적용 전(before): `src/behavioral/templateMethod/before/...`
-    - 적용 후(after): `src/behavioral/templateMethod/...` (Template Method 사용)
+    - 문제(problem): `src/behavioral/templateMethod/problem/...`
+    - 해결(resolve): `src/behavioral/templateMethod/resolve/...`
   - 상태 예제: `src/behavioral/state/...`
-    - 적용 전(before): `src/behavioral/state/before/...`
-    - 적용 후(after): `src/behavioral/state/after/...`
+    - 문제(problem): `src/behavioral/state/problem/...`
+    - 해결(resolve): `src/behavioral/state/resolve/...`
   - 싱글턴 예제: `src/creational/singleton/...`
-    - 적용 전(before): `src/creational/singleton/before/...`
-    - 적용 후(after): `src/creational/singleton/...` (Singleton 사용)
+    - 문제(problem): `src/creational/singleton/problem/...`
+    - 해결(resolve): `src/creational/singleton/resolve/...`
 
 필요한 패턴을 더 추가하거나 정리 포맷을 바꾸고 싶으시면 알려주세요.

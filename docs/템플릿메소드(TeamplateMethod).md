@@ -45,10 +45,10 @@ sequenceDiagram
 ```
 
 관련 경로
-- `src/behavioral/templateMethod/beverage/Beverage.java`
-- `src/behavioral/templateMethod/beverage/Tea.java`
-- `src/behavioral/templateMethod/beverage/Coffee.java`
-- `src/behavioral/templateMethod/beverage/Main.java`
+- `src/behavioral/templateMethod/resolve/beverage/Beverage.java`
+- `src/behavioral/templateMethod/resolve/beverage/Tea.java`
+- `src/behavioral/templateMethod/resolve/beverage/Coffee.java`
+- `src/behavioral/templateMethod/resolve/beverage/Main.java`
 
 ## 예시 2: 데이터 처리 파이프라인 (processor)
 
@@ -74,10 +74,10 @@ sequenceDiagram
 ```
 
 관련 경로
-- `src/behavioral/templateMethod/processor/DataProcessor.java`
-- `src/behavioral/templateMethod/processor/CSVDataProcessor.java`
-- `src/behavioral/templateMethod/processor/JSONDataProcessor.java`
-- `src/behavioral/templateMethod/processor/Main.java`
+- `src/behavioral/templateMethod/resolve/processor/DataProcessor.java`
+- `src/behavioral/templateMethod/resolve/processor/CSVDataProcessor.java`
+- `src/behavioral/templateMethod/resolve/processor/JSONDataProcessor.java`
+- `src/behavioral/templateMethod/resolve/processor/Main.java`
 
 ## 적용 팁
 - 템플릿 메소드는 가능하면 `final`로 고정해 흐름 변경을 방지

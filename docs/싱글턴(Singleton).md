@@ -54,11 +54,11 @@ sequenceDiagram
 - `Button` / `TextField` / `Label`: 각 컴포넌트가 필요 시 `Theme`를 조회해 표시 로직에 반영
 
 관련 경로
-- `src/creational/singleton/theme/Theme.java`
-- `src/creational/singleton/theme/Button.java`
-- `src/creational/singleton/theme/TextField.java`
-- `src/creational/singleton/theme/Label.java`
-- `src/creational/singleton/theme/Main.java`
+- `src/creational/singleton/resolve/theme/Theme.java`
+- `src/creational/singleton/resolve/theme/Button.java`
+- `src/creational/singleton/resolve/theme/TextField.java`
+- `src/creational/singleton/resolve/theme/Label.java`
+- `src/creational/singleton/resolve/theme/Main.java`
 
 ## 스레드 안전과 변형
 - 현재 구현은 지연 초기화(lazy)지만 스레드 안전하지 않음. 멀티스레드 환경에서 동시 접근 시 두 개 이상 생성 가능

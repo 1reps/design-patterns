@@ -41,10 +41,10 @@ sequenceDiagram
 ```
 
 관련 경로
-- `src/behavioral/strategy/payment/PaymentStrategy.java`
-- `src/behavioral/strategy/payment/CreditCardPayment.java`
-- `src/behavioral/strategy/payment/PayPalPayment.java`
-- `src/behavioral/strategy/payment/ShoppingCart.java`
+- `src/behavioral/strategy/resolve/payment/PaymentStrategy.java`
+- `src/behavioral/strategy/resolve/payment/CreditCardPayment.java`
+- `src/behavioral/strategy/resolve/payment/PayPalPayment.java`
+- `src/behavioral/strategy/resolve/payment/ShoppingCart.java`
 
 ## 예시 2: 압축 전략 (compress)
 
@@ -63,10 +63,10 @@ sequenceDiagram
 ```
 
 관련 경로
-- `src/behavioral/strategy/compress/CompressionStrategy.java`
-- `src/behavioral/strategy/compress/RunLengthEncoding.java`
-- `src/behavioral/strategy/compress/SimpleReplacementCompression.java`
-- `src/behavioral/strategy/compress/Compressor.java`
+- `src/behavioral/strategy/resolve/compress/CompressionStrategy.java`
+- `src/behavioral/strategy/resolve/compress/RunLengthEncoding.java`
+- `src/behavioral/strategy/resolve/compress/SimpleReplacementCompression.java`
+- `src/behavioral/strategy/resolve/compress/Compressor.java`
 
 ## 적용 팁
 - 전략 교체가 빈번하면 세터/생성자 주입 모두 허용해 테스트/사용 편의성 확보

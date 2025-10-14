@@ -48,12 +48,12 @@ sequenceDiagram
     Note right of State: OpenState인 경우 ClosedState로 전이
 ```
 
-관련 경로 (after)
-- `src/behavioral/state/after/door/State.java`
-- `src/behavioral/state/after/door/OpenState.java`
-- `src/behavioral/state/after/door/ClosedState.java`
-- `src/behavioral/state/after/door/Door.java`
-- `src/behavioral/state/after/door/Main.java`
+관련 경로 (resolve)
+- `src/behavioral/state/resolve/door/State.java`
+- `src/behavioral/state/resolve/door/OpenState.java`
+- `src/behavioral/state/resolve/door/ClosedState.java`
+- `src/behavioral/state/resolve/door/Door.java`
+- `src/behavioral/state/resolve/door/Main.java`
 
 ## 예시 2: 동영상 플레이어 (video)
 
@@ -77,17 +77,17 @@ sequenceDiagram
     Note right of S: Playing -> Paused 또는 Stopped 전이
 ```
 
-관련 경로 (after)
-- `src/behavioral/state/after/video/State.java`
-- `src/behavioral/state/after/video/PlayingState.java`
-- `src/behavioral/state/after/video/PausedState.java`
-- `src/behavioral/state/after/video/StoppedState.java`
-- `src/behavioral/state/after/video/VideoPlayer.java`
+관련 경로 (resolve)
+- `src/behavioral/state/resolve/video/State.java`
+- `src/behavioral/state/resolve/video/PlayingState.java`
+- `src/behavioral/state/resolve/video/PausedState.java`
+- `src/behavioral/state/resolve/video/StoppedState.java`
+- `src/behavioral/state/resolve/video/VideoPlayer.java`
 
-## Before vs After
-- Before (조건문 기반): `src/behavioral/state/before/video/VideoPlayer.java`
+## Problem vs Resolve
+- Problem (조건문 기반): `src/behavioral/state/problem/video/VideoPlayer.java`
   - 문제점: 상태별 분기가 한 클래스에 집중되어 if/else가 증가하고, 전이 규칙 변경 시 수정 범위가 커짐.
-- After (상태 객체 기반): 위 ‘관련 경로 (after)’ 참고
+- Resolve (상태 객체 기반): 위 ‘관련 경로 (resolve)’ 참고
   - 장점: 전이는 각 상태 객체로 응집되고, 컨텍스트는 위임과 현재 상태 보관에만 집중.
 
 ## 적용 팁
