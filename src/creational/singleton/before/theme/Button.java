@@ -1,6 +1,7 @@
 package creational.singleton.before.theme;
 
 public class Button {
+
     private final String label;
     private final Theme theme; // 각 컴포넌트가 제각각 Theme 인스턴스를 가짐
 
@@ -13,6 +14,8 @@ public class Button {
         System.out.println("[Button:" + label + "] theme=" + theme.getThemeColor());
     }
 
-    public Theme getTheme() { return theme; }
+    public Theme getTheme() {
+        return theme;
+    }
 }
 

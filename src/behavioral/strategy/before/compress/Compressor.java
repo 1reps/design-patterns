@@ -9,7 +9,9 @@ public class Compressor {
             for (int i = 0; i < n; ) {
                 char c = data.charAt(i);
                 int j = i;
-                while (j < n && data.charAt(j) == c) j++;
+                while (j < n && data.charAt(j) == c) {
+                    j++;
+                }
                 sb.append(c).append(j - i);
                 i = j;
             }

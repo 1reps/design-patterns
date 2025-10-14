@@ -1,4 +1,4 @@
-package behavioral.state.after.video;
+package behavioral.state.video;
 
 public class VideoPlayer {
 

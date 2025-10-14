@@ -1,4 +1,4 @@
-package behavioral.state.after.door;
+package behavioral.state.door;
 
 public class OpenState implements State {
 

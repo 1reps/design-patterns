@@ -17,11 +17,28 @@ public class BeverageMaker {
         }
     }
 
-    private void boilWater() { System.out.println("Boiling water"); }
-    private void pourInCup() { System.out.println("Pouring into cup"); }
-    private void brewTea() { System.out.println("Steeping the tea"); }
-    private void brewCoffee() { System.out.println("Dripping coffee through filter"); }
-    private void addLemon() { System.out.println("Adding lemon"); }
-    private void addSugarAndMilk() { System.out.println("Adding sugar and milk"); }
+    private void boilWater() {
+        System.out.println("Boiling water");
+    }
+
+    private void pourInCup() {
+        System.out.println("Pouring into cup");
+    }
+
+    private void brewTea() {
+        System.out.println("Steeping the tea");
+    }
+
+    private void brewCoffee() {
+        System.out.println("Dripping coffee through filter");
+    }
+
+    private void addLemon() {
+        System.out.println("Adding lemon");
+    }
+
+    private void addSugarAndMilk() {
+        System.out.println("Adding sugar and milk");
+    }
 }
 

@@ -1,6 +1,7 @@
 package creational.singleton.before.theme;
 
 public class TextField {
+
     private final String placeholder;
     private final Theme theme;
 
@@ -13,6 +14,8 @@ public class TextField {
         System.out.println("[TextField:" + placeholder + "] theme=" + theme.getThemeColor());
     }
 
-    public Theme getTheme() { return theme; }
+    public Theme getTheme() {
+        return theme;
+    }
 }
 

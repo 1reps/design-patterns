@@ -1,4 +1,4 @@
-package creational.singleton.before.theme;
+package creational.singleton.after.theme;
 
 public class Main {
 
@@ -11,8 +11,7 @@ public class Main {
         textField.display();
         label.display();
 
-        // 각 컴포넌트가 가진 Theme가 서로 달라 일관성 붕괴
-        button.getTheme().setThemeColor("dark");
+        Theme.getInstance().setThemeColor("dark");
 
         button.display();
         textField.display();

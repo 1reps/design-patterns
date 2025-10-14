@@ -1,6 +1,7 @@
 package structural.facade.before.smarthome;
 
 public class Client {
+
     public static void main(String[] args) {
         // 하위 컴포넌트를 직접 제어 (시나리오 로직이 분산되고 중복됨)
         System.out.println("Waking up...");

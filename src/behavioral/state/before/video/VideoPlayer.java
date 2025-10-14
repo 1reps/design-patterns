@@ -9,25 +9,25 @@ public class VideoPlayer {
     }
 
     public void play() {
-        if (state.equals("Stopped")) {
+        if ("Stopped".equals(state)) {
             System.out.println("Starting the video.");
             state = "Playing";
-        } else if (state.equals("Playing")) {
+        } else if ("Playing".equals(state)) {
             System.out.println("Video is already playing.");
-        } else if (state.equals("Paused")) {
+        } else if ("Paused".equals(state)) {
             System.out.println("Resuming the video.");
             state = "Playing";
         }
     }
 
     public void stop() {
-        if (state.equals("Playing")) {
+        if ("Playing".equals(state)) {
             System.out.println("Pausing the video.");
             state = "Paused";
-        } else if (state.equals("Paused")) {
+        } else if ("Paused".equals(state)) {
             System.out.println("Stopping the video.");
             state = "Stopped";
-        } else if (state.equals("Stopped")) {
+        } else if ("Stopped".equals(state)) {
             System.out.println("Video is already stopped.");
         }
     }

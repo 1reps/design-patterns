@@ -1,7 +1,6 @@
-package structural.facade.smarthome;
+package structural.facade.after.smarthome;
 
 class Lights {
-
     void on() {
         System.out.println("Lights are on.");
     }

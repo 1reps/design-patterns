@@ -5,6 +5,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class Client {
+
     public static void main(String[] args) throws IOException {
         String path = "example.txt";
         String content = "hello";

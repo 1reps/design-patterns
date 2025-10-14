@@ -16,10 +16,26 @@ public class DataPipeline {
         saveData(loaded);
     }
 
-    private String loadData(String data) { System.out.println("Loading data"); return data; }
-    private boolean isValidData(String data, String format) { System.out.println("Validating " + format); return data != null; }
-    private void processCsv(String data) { System.out.println("Processing CSV"); }
-    private void processJson(String data) { System.out.println("Processing JSON"); }
-    private void saveData(String data) { System.out.println("Saving data"); }
+    private String loadData(String data) {
+        System.out.println("Loading data");
+        return data;
+    }
+
+    private boolean isValidData(String data, String format) {
+        System.out.println("Validating " + format);
+        return data != null;
+    }
+
+    private void processCsv(String data) {
+        System.out.println("Processing CSV");
+    }
+
+    private void processJson(String data) {
+        System.out.println("Processing JSON");
+    }
+
+    private void saveData(String data) {
+        System.out.println("Saving data");
+    }
 }
 
