@@ -9,6 +9,7 @@
 - 구조 패턴
    - [어댑터 (Adapter)](<docs/어댑터(Adapter).md>)
    - [브릿지 (Bridge)](<docs/브릿지(Bridge).md>)
+   - [프록시 (Proxy)](<docs/프록시(Proxy).md>)
    - [퍼사드 (Facade)](<docs/퍼사드(Facade).md>)
 - 생성 패턴
    - [팩토리 메소드 (Factory Method)](<docs/팩토리메소드(FactoryMethod).md>)
@@ -27,6 +28,9 @@
     - 브릿지 예제: `src/structural/bridge/...`
       - 문제(problem): `src/structural/bridge/problem/...`
       - 해결(resolve): `src/structural/bridge/resolve/...`
+    - 프록시 예제: `src/structural/proxy/...`
+      - 문제(problem): `src/structural/proxy/problem/...`
+      - 해결(resolve): `src/structural/proxy/resolve/...`
     - 파사드 예제: `src/structural/facade/...`
       - 문제(problem): `src/structural/facade/problem/...`
       - 해결(resolve): `src/structural/facade/resolve/...`
