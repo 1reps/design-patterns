@@ -7,6 +7,7 @@
 ## 문서 인덱스
 
 - 구조 패턴
+   - [어댑터 (Adapter)](<docs/어댑터(Adapter).md>)
    - [퍼사드 (Facade)](<docs/퍼사드(Facade).md>)
 - 생성 패턴
    - [싱글턴 (Singleton)](<docs/싱글턴(Singleton).md>)
@@ -20,6 +21,9 @@
   - 파사드 예제: `src/structural/facade/...`
     - 문제(problem): `src/structural/facade/problem/...`
     - 해결(resolve): `src/structural/facade/resolve/...`
+  - 어댑터 예제: `src/structural/adapter/...`
+    - 문제(problem): `src/structural/adapter/problem/...`
+    - 해결(resolve): `src/structural/adapter/resolve/...`
   - 전략 예제: `src/behavioral/strategy/...`
     - 문제(problem): `src/behavioral/strategy/problem/...`
     - 해결(resolve): `src/behavioral/strategy/resolve/...`
