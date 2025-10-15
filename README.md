@@ -8,8 +8,10 @@
 
 - 구조 패턴
    - [어댑터 (Adapter)](<docs/어댑터(Adapter).md>)
+   - [브릿지 (Bridge)](<docs/브릿지(Bridge).md>)
    - [퍼사드 (Facade)](<docs/퍼사드(Facade).md>)
 - 생성 패턴
+   - [팩토리 메소드 (Factory Method)](<docs/팩토리메소드(FactoryMethod).md>)
    - [싱글턴 (Singleton)](<docs/싱글턴(Singleton).md>)
 - 행위 패턴
    - [전략 (Strategy)](<docs/전략(Strategy).md>)
@@ -18,23 +20,32 @@
 
 ## 코드 루트
 - 소스 루트: `src`
-  - 파사드 예제: `src/structural/facade/...`
-    - 문제(problem): `src/structural/facade/problem/...`
-    - 해결(resolve): `src/structural/facade/resolve/...`
-  - 어댑터 예제: `src/structural/adapter/...`
-    - 문제(problem): `src/structural/adapter/problem/...`
-    - 해결(resolve): `src/structural/adapter/resolve/...`
-  - 전략 예제: `src/behavioral/strategy/...`
-    - 문제(problem): `src/behavioral/strategy/problem/...`
-    - 해결(resolve): `src/behavioral/strategy/resolve/...`
-  - 템플릿 메소드 예제: `src/behavioral/templateMethod/...`
-    - 문제(problem): `src/behavioral/templateMethod/problem/...`
-    - 해결(resolve): `src/behavioral/templateMethod/resolve/...`
-  - 상태 예제: `src/behavioral/state/...`
-    - 문제(problem): `src/behavioral/state/problem/...`
-    - 해결(resolve): `src/behavioral/state/resolve/...`
-  - 싱글턴 예제: `src/creational/singleton/...`
-    - 문제(problem): `src/creational/singleton/problem/...`
-    - 해결(resolve): `src/creational/singleton/resolve/...`
+  - 구조 패턴 (Structural)
+    - 어댑터 예제: `src/structural/adapter/...`
+      - 문제(problem): `src/structural/adapter/problem/...`
+      - 해결(resolve): `src/structural/adapter/resolve/...`
+    - 브릿지 예제: `src/structural/bridge/...`
+      - 문제(problem): `src/structural/bridge/problem/...`
+      - 해결(resolve): `src/structural/bridge/resolve/...`
+    - 파사드 예제: `src/structural/facade/...`
+      - 문제(problem): `src/structural/facade/problem/...`
+      - 해결(resolve): `src/structural/facade/resolve/...`
+  - 생성 패턴 (Creational)
+    - 팩토리 메소드 예제: `src/creational/fatoryMethod/...`
+      - 문제(problem): `src/creational/fatoryMethod/problem/...`
+      - 해결(resolve): `src/creational/fatoryMethod/resolve/...`
+    - 싱글턴 예제: `src/creational/singleton/...`
+      - 문제(problem): `src/creational/singleton/problem/...`
+      - 해결(resolve): `src/creational/singleton/resolve/...`
+  - 행위 패턴 (Behavioral)
+    - 전략 예제: `src/behavioral/strategy/...`
+      - 문제(problem): `src/behavioral/strategy/problem/...`
+      - 해결(resolve): `src/behavioral/strategy/resolve/...`
+    - 템플릿 메소드 예제: `src/behavioral/templateMethod/...`
+      - 문제(problem): `src/behavioral/templateMethod/problem/...`
+      - 해결(resolve): `src/behavioral/templateMethod/resolve/...`
+    - 상태 예제: `src/behavioral/state/...`
+      - 문제(problem): `src/behavioral/state/problem/...`
+      - 해결(resolve): `src/behavioral/state/resolve/...`
 
 필요한 패턴을 더 추가하거나 정리 포맷을 바꾸고 싶으시면 알려주세요.
