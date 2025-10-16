@@ -15,6 +15,7 @@
    - [팩토리 메소드 (Factory Method)](<docs/팩토리메소드(FactoryMethod).md>)
    - [싱글턴 (Singleton)](<docs/싱글턴(Singleton).md>)
 - 행위 패턴
+   - [옵져버 (Observer)](<docs/옵져버(Observer).md>)
    - [전략 (Strategy)](<docs/전략(Strategy).md>)
    - [템플릿 메소드 (Template Method)](<docs/템플릿메소드(TeamplateMethod).md>)
    - [상태 (State)](<docs/상태(State).md>)
@@ -42,6 +43,9 @@
       - 문제(problem): `src/creational/singleton/problem/...`
       - 해결(resolve): `src/creational/singleton/resolve/...`
   - 행위 패턴 (Behavioral)
+    - 옵져버 예제: `src/behavioral/observer/...`
+      - 문제(problem): `src/behavioral/observer/problem/...`
+      - 해결(resolve): `src/behavioral/observer/resolve/...`
     - 전략 예제: `src/behavioral/strategy/...`
       - 문제(problem): `src/behavioral/strategy/problem/...`
       - 해결(resolve): `src/behavioral/strategy/resolve/...`
