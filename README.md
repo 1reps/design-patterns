@@ -9,6 +9,7 @@
 - 구조 패턴
    - [어댑터 (Adapter)](<docs/어댑터(Adapter).md>)
    - [브릿지 (Bridge)](<docs/브릿지(Bridge).md>)
+   - [플라이웨이트 (Flyweight)](<docs/플라이웨이트(Flyweight).md>)
    - [프록시 (Proxy)](<docs/프록시(Proxy).md>)
    - [퍼사드 (Facade)](<docs/퍼사드(Facade).md>)
 - 생성 패턴
@@ -32,6 +33,9 @@
     - 프록시 예제: `src/structural/proxy/...`
       - 문제(problem): `src/structural/proxy/problem/...`
       - 해결(resolve): `src/structural/proxy/resolve/...`
+    - 플라이웨이트 예제: `src/structural/flyweight/...`
+      - 문제(problem): `src/structural/flyweight/problem/...`
+      - 해결(resolve): `src/structural/flyweight/resolve/...`
     - 파사드 예제: `src/structural/facade/...`
       - 문제(problem): `src/structural/facade/problem/...`
       - 해결(resolve): `src/structural/facade/resolve/...`
