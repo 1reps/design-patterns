@@ -14,6 +14,7 @@
    - [퍼사드 (Facade)](<docs/퍼사드(Facade).md>)
 - 생성 패턴
    - [추상 팩토리 (Abstract Factory)](<docs/추상팩토리(AbstractFactory).md>)
+   - [빌더 (Builder)](<docs/빌더(Builder).md>)
    - [팩토리 메소드 (Factory Method)](<docs/팩토리메소드(FactoryMethod).md>)
    - [싱글턴 (Singleton)](<docs/싱글턴(Singleton).md>)
 - 행위 패턴
@@ -29,6 +30,7 @@
 
 ### ⭐ 핵심 패턴 (필수)
 - **싱글턴 (Singleton)** - 전역 상태 관리
+- **빌더 (Builder)** - 복잡한 객체 생성
 - **팩토리 메소드 (Factory Method)** - 객체 생성 추상화
 - **옵져버 (Observer)** - 이벤트 기반 통신
 - **전략 (Strategy)** - 알고리즘 교체
