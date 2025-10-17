@@ -13,6 +13,7 @@
    - [프록시 (Proxy)](<docs/프록시(Proxy).md>)
    - [퍼사드 (Facade)](<docs/퍼사드(Facade).md>)
 - 생성 패턴
+   - [추상 팩토리 (Abstract Factory)](<docs/추상팩토리(AbstractFactory).md>)
    - [팩토리 메소드 (Factory Method)](<docs/팩토리메소드(FactoryMethod).md>)
    - [싱글턴 (Singleton)](<docs/싱글턴(Singleton).md>)
 - 행위 패턴
@@ -40,6 +41,9 @@
       - 문제(problem): `src/structural/facade/problem/...`
       - 해결(resolve): `src/structural/facade/resolve/...`
   - 생성 패턴 (Creational)
+    - 추상 팩토리 예제: `src/creational/abstractFactory/...`
+      - 문제(problem): `src/creational/abstractFactory/problem/...`
+      - 해결(resolve): `src/creational/abstractFactory/resolve/...`
     - 팩토리 메소드 예제: `src/creational/fatoryMethod/...`
       - 문제(problem): `src/creational/fatoryMethod/problem/...`
       - 해결(resolve): `src/creational/fatoryMethod/resolve/...`
