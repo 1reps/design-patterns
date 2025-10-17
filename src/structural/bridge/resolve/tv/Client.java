@@ -1,0 +1,18 @@
+package structural.bridge.resolve.tv;
+
+public class Client {
+
+    public static void main(String[] args) {
+        Device tv = new TV();
+        Remote basicRemote = new BasicRemote(tv);
+        basicRemote.power();
+        basicRemote.volumeUp();
+
+        System.out.println();
+
+        Device radio = new Radio();
+        AdvancedRemote advancedRemote = new AdvancedRemote(radio);
+        advancedRemote.power();
+        advancedRemote.mute();
+    }
+}
