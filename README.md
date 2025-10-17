@@ -9,6 +9,7 @@
 - 구조 패턴
    - [어댑터 (Adapter)](<docs/어댑터(Adapter).md>)
    - [브릿지 (Bridge)](<docs/브릿지(Bridge).md>)
+   - [데코레이터 (Decorator)](<docs/데코레이터(Decorator).md>)
    - [플라이웨이트 (Flyweight)](<docs/플라이웨이트(Flyweight).md>)
    - [프록시 (Proxy)](<docs/프록시(Proxy).md>)
    - [퍼사드 (Facade)](<docs/퍼사드(Facade).md>)
@@ -41,6 +42,7 @@
 - **추상 팩토리 (Abstract Factory)** - 과도한 추상화로 인한 복잡성 증가 위험
 
 ### 📚 상황별 선택 패턴  
+- **데코레이터 (Decorator)** - 객체에 동적으로 기능 추가
 - **중재자 (Mediator)** - 복잡한 객체 간 통신
 - **템플릿 메소드 (Template Method)** - 공통 알고리즘 뼈대
 - **상태 (State)** - 상태별 행위 변경
