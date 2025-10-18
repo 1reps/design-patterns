@@ -22,6 +22,7 @@
    - [방문자 (Visitor)](<docs/방문자(Visitor).md>)
    - [중재자 (Mediator)](<docs/중재자(Mediator).md>)
    - [옵져버 (Observer)](<docs/옵져버(Observer).md>)
+   - [발행-구독 (Publisher-Subscriber)](<docs/발행구독(PublisherSubscriber).md>)
    - [전략 (Strategy)](<docs/전략(Strategy).md>)
    - [템플릿 메소드 (Template Method)](<docs/템플릿메소드(TeamplateMethod).md>)
    - [상태 (State)](<docs/상태(State).md>)
@@ -34,6 +35,7 @@
 - **빌더 (Builder)** - 복잡한 객체 생성
 - **팩토리 메소드 (Factory Method)** - 객체 생성 추상화
 - **옵져버 (Observer)** - 이벤트 기반 통신
+- **발행-구독 (Publisher-Subscriber)** - 비동기 메시징
 - **전략 (Strategy)** - 알고리즘 교체
 - **어댑터 (Adapter)** - 인터페이스 호환성
 
